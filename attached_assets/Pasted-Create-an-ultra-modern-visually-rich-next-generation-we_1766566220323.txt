@@ -1,0 +1,168 @@
+Create an ultra-modern, visually rich, next-generation website for a premium gym called “S Square Fitness Club.”
+The website must feel cinematic, energetic, bold, and futuristic, designed for the new generation.
+This is NOT a basic website — it should feel like a brand experience.
+
+🎥 VISUAL & MOTION REQUIREMENTS (VERY IMPORTANT)
+
+Use high-quality videos and bold imagery heavily throughout the site
+
+Use scroll-based animations (parallax, fade-ins, slide-ups, text reveals)
+
+Every major scroll section should feel visually unique
+
+Animate text on entry (split text, fade, slide, scale)
+
+Smooth transitions between sections
+
+Subtle motion on buttons, cards, and CTAs
+
+Sticky navigation with animated hover states
+
+The user should feel energy and motivation just by scrolling.
+
+🎨 COLOR & STYLE GUIDE
+
+Primary color: Deep Red (fitness energy, power, intensity)
+
+Secondary: Black / Dark charcoal
+
+Accent: White / Light gray
+
+❌ Do NOT use yellow or warm pastel colors
+
+Fonts
+
+Headings: Bold, modern, aggressive sans-serif (e.g., Bebas Neue / Poppins / Oswald)
+
+Body text: Clean, minimal font (Inter / Open Sans)
+
+Design Style
+
+Dark mode dominant
+
+High contrast
+
+Large typography
+
+Minimal text, strong visuals
+
+Premium brand feel (Nike / Gymshark vibe)
+
+🧭 SITE MAP WITH VISUAL INTENT
+1️⃣ Hero Section (FULL SCREEN)
+
+Full-screen video background of real workouts
+
+Bold animated headline:
+“BUILD YOUR STRONGEST VERSION.”
+
+Subtext animates on scroll
+
+CTA button with pulse animation:
+“Book Free Trial”
+
+2️⃣ Scroll Section – Brand Statement
+
+Large moving typography:
+“THIS IS NOT JUST A GYM”
+
+Text reveals as user scrolls
+
+Background image/video shifts with parallax
+
+3️⃣ Facilities & Equipment (Image-Driven)
+
+Grid of bold gym images
+
+Hover animations
+
+Minimal text overlays
+
+Smooth zoom-in effects
+
+4️⃣ Training Programs (Scroll-Based Cards)
+
+Each program appears on scroll:
+
+Strength Training
+
+Fat Loss
+
+Functional Training
+
+Zumba / Yoga
+
+Cards animate differently for each section
+
+5️⃣ Trainers (Storytelling Style)
+
+Full-width trainer images
+
+Text slides in from sides
+
+Quote animation:
+“Consistency creates results.”
+
+6️⃣ Transformations & Testimonials
+
+Before / After image slider
+
+Text fades in as user scrolls
+
+Strong trust-building visuals
+
+7️⃣ Membership & Pricing (Clean + Bold)
+
+Dark background
+
+Red accent highlights
+
+Smooth hover effects
+
+Clear pricing cards
+
+8️⃣ Call to Action (High Impact)
+
+Full-screen section
+
+Video or bold image background
+
+Large animated text:
+“START YOUR TRANSFORMATION TODAY”
+
+WhatsApp + Call buttons with micro-animations
+
+✍️ CONTENT STYLE (IMPORTANT)
+
+Short, powerful sentences
+
+Motivational language
+
+No long paragraphs
+
+Gym-focused, result-driven tone
+
+Example:
+“Train harder.
+Stay consistent.
+Get results.”
+
+⚙️ FUNCTIONAL REQUIREMENTS
+
+Fully mobile-first and responsive
+
+Smooth scrolling performance
+
+Click-to-call & WhatsApp floating buttons
+
+Lead capture form with animation
+
+Instagram feed integration
+
+SEO-friendly structure
+
+Target Audience:
+Young adults and professionals who want a premium gym experience and judge a brand by its online presence.
+
+Overall Feel:
+🔴 Bold • Powerful • Motivational • Cinematic • New-Generation
