@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fitness Hub</title>
+    <script>
+        // Single Page Application redirect for GitHub Pages
+        // Redirects 404 requests to the index.html with the path encoded
+        const path = window.location.pathname;
+        const search = window.location.search;
+        const hash = window.location.hash;
+
+        // Redirect to base path with the original path as a query param
+        const base = '/fitness-hub/';
+        if (path !== base && path !== base.slice(0, -1)) {
+            window.location.replace(base + '?redirect=' + encodeURIComponent(path + search + hash));
+        }
+    </script>
+</head>
+
+<body>
+    <p>Redirecting...</p>
+</body>
+
+</html>
