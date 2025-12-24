@@ -14,10 +14,10 @@ export default function BrandStatement() {
   return (
     <section id="brand" ref={containerRef} className="py-32 bg-background overflow-hidden relative">
       <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary/5 via-transparent to-transparent opacity-50" />
-      
+
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -30,15 +30,15 @@ export default function BrandStatement() {
             <div className="w-24 h-1 bg-primary mx-auto mt-6" />
           </motion.div>
 
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 0.3, duration: 0.8 }}
             className="text-xl md:text-2xl text-gray-400 font-light leading-relaxed"
           >
-            We are a movement. A community of relentless individuals pushing past limits. 
-            At S Square Fitness, we don't just train bodies; we forge mindsets. 
+            We are a movement. A community of relentless individuals pushing past limits.
+            At Fitness Hub, we don't just train bodies; we forge mindsets.
             <strong className="text-white font-bold ml-2">Consistency creates results.</strong>
           </motion.p>
         </div>
@@ -49,8 +49,8 @@ export default function BrandStatement() {
         <motion.div style={{ x: x1 }} className="whitespace-nowrap font-heading text-[15vw] leading-none text-white font-bold">
           DISCIPLINE POWER STRENGTH
         </motion.div>
-        <motion.div 
-          style={{ x: x2, WebkitTextStroke: "2px white" }} 
+        <motion.div
+          style={{ x: x2, WebkitTextStroke: "2px white" }}
           className="whitespace-nowrap font-heading text-[15vw] leading-none text-transparent stroke-text font-bold"
         >
           COMMUNITY PASSION GRIT

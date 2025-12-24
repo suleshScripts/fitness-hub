@@ -10,14 +10,14 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-2 mb-6">
               <div className="w-8 h-8 bg-primary flex items-center justify-center font-heading font-bold text-white skew-x-[-10deg]">
-                S²
+                FH
               </div>
               <span className="font-heading font-bold text-2xl tracking-tighter text-white">
-                S SQUARE <span className="text-primary">FITNESS</span>
+                FITNESS <span className="text-primary">HUB</span>
               </span>
             </div>
             <p className="text-gray-400 max-w-md mb-8">
-              A premium fitness destination for those who demand excellence. 
+              A premium fitness destination for those who demand excellence.
               Join the movement and build your strongest version today.
             </p>
             <div className="flex gap-4">
@@ -47,7 +47,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li className="flex items-start gap-3 text-gray-400">
                 <MapPin className="w-5 h-5 text-primary shrink-0" />
-                <span>123 Iron Street, Fitness District<br/>Metro City, MC 10001</span>
+                <span>123 Iron Street, Fitness District<br />Metro City, MC 10001</span>
               </li>
               <li className="flex items-center gap-3 text-gray-400">
                 <Phone className="w-5 h-5 text-primary shrink-0" />
@@ -55,7 +55,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3 text-gray-400">
                 <Mail className="w-5 h-5 text-primary shrink-0" />
-                <span>info@ssquarefitness.com</span>
+                <span>info@fitnesshub.com</span>
               </li>
             </ul>
           </div>
@@ -70,13 +70,13 @@ export default function Footer() {
           <Button className="bg-black text-white hover:bg-gray-900 px-8 py-6 uppercase font-heading tracking-widest skew-x-[-10deg] relative z-10">
             Get Started Now
           </Button>
-          
+
           {/* Background pattern */}
           <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-20" />
         </div>
 
         <div className="mt-16 text-center text-gray-600 text-sm">
-          <p>&copy; {new Date().getFullYear()} S Square Fitness Club. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Fitness Hub. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -8,9 +8,9 @@ export default function Hero() {
     <section id="hero" className="relative h-screen w-full overflow-hidden flex items-center justify-center">
       {/* Background with parallax effect simulation via fixed positioning if needed, or just absolute */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src={heroBg} 
-          alt="Gym Hero Background" 
+        <img
+          src={heroBg}
+          alt="Gym Hero Background"
           className="w-full h-full object-cover brightness-[0.4]"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent" />
@@ -23,7 +23,7 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="max-w-4xl"
         >
-          <motion.h2 
+          <motion.h2
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.2, duration: 0.8 }}
@@ -31,7 +31,7 @@ export default function Hero() {
           >
             Welcome to the Next Level
           </motion.h2>
-          
+
           <h1 className="font-heading font-bold text-5xl md:text-8xl lg:text-9xl text-white leading-[0.9] mb-8 uppercase italic">
             Build Your <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-white via-gray-300 to-gray-500">Strongest</span> <br />
@@ -39,13 +39,13 @@ export default function Hero() {
           </h1>
 
           <p className="text-gray-300 text-lg md:text-xl max-w-xl mb-10 leading-relaxed font-light">
-            S Square Fitness is not just a gym. It's a sanctuary for those who refuse to settle for average. 
+            Fitness Hub is not just a gym. It's a sanctuary for those who refuse to settle for average.
             Experience the future of fitness.
           </p>
 
           <div className="flex flex-col md:flex-row gap-4 items-center md:items-start">
-            <Button 
-              size="lg" 
+            <Button
+              size="lg"
               className="bg-primary hover:bg-red-700 text-white font-heading text-xl px-10 py-8 uppercase tracking-widest skew-x-[-10deg] group relative overflow-hidden"
             >
               <span className="relative z-10 flex items-center gap-2 group-hover:gap-4 transition-all">
@@ -53,10 +53,10 @@ export default function Hero() {
               </span>
               <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
             </Button>
-            
-            <Button 
+
+            <Button
               variant="outline"
-              size="lg" 
+              size="lg"
               className="bg-transparent border-white/20 hover:bg-white/10 text-white font-heading text-xl px-10 py-8 uppercase tracking-widest skew-x-[-10deg] backdrop-blur-sm"
             >
               View Programs
@@ -64,9 +64,9 @@ export default function Hero() {
           </div>
         </motion.div>
       </div>
-      
+
       {/* Scroll indicator */}
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1, y: [0, 10, 0] }}
         transition={{ delay: 1, duration: 2, repeat: Infinity }}
